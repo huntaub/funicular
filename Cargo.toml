@@ -1,0 +1,12 @@
+[package]
+name = "arrakis"
+version = "0.1.0"
+authors = ["Hunter Leath <h@hunterleath.com>"]
+
+[dependencies]
+rusoto_core = "0.32.0"
+rusoto_s3   = "0.32.0"
+
+toml = "0.4.6"
+
+serde = "1.0.43"
