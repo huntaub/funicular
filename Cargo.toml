@@ -7,6 +7,11 @@ authors = ["Hunter Leath <h@hunterleath.com>"]
 rusoto_core = "0.32.0"
 rusoto_s3   = "0.32.0"
 
+clap = "2.31.2"
 toml = "0.4.6"
 
 serde = "1.0.43"
+
+uuid = { version = "0.6.3", features = ["v4"] }
+futures = "0.1.21"
+hyper = "0.11.25"
